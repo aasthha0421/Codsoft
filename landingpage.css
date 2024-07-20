@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+      background-color: white;
+      color: black;
+      height: 60px;
+      text-decoration: none;
+}
+#logo{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+a{
+    margin-right: 160px;
+    text-decoration: none;
+    color: black;
+    font-size: lighter;
+}
+#top {
+    height: 350px;
+    width: 100%;
+    background-image: url(Screenshot\ \(44\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-right: 1vw 0;
+    /* height 60 krdi and width 50 */
+ } 
+ #text h1{
+    font-size: 2vw;
+    font-weight: 800;
+ }
+ #text h2{
+    font-size: 2vw;
+    font-weight: 800;
+ }
+#bottom {
+    height: 200px;
+    width: 100%;
+    background-color: burlywood; 
+    display: flex;
+}
+ #first{  
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+    background-image: url(Screenshot\ \(49\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+#second{
+    height: 200px;
+    width: 25%;
+    background-color: white;
+   display: inline-block;
+   background-image: url(Screenshot\ \(48\).png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: 100% 200px;
+}
+#third{
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+    background-image: url(49.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+#four{
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+    background-image: url(50.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    
+}
+ #text{
+    bottom: 40%;
+    position: absolute;
+    width: 100%;
+    /* vw means screen ke according size ka change hona */
+    text-align: end;
+ }
