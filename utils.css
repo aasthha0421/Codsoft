@@ -1,0 +1,20 @@
+/*  style sheet made for utility class
+advatange of using utility class: we cn reuse and delete it */
+.text-center{
+    text-align: center;
+}
+.bg-pink{
+    background-color: pink;
+}
+.m-auto{
+     margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+    /* writing flex direction is imp */
+       justify-content: center;
+       align-items: center;
+}
