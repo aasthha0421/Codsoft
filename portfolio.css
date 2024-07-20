@@ -1,0 +1,1055 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+ /* universal selector, always start like this  */
+body{
+    background-color:rgba(0,0,33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* copied from goggle font  */
+}
+nav {
+    background-color: rgba(0,0,55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+ /* ye life first and two ko arrange kr rha h  */
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+/* isse sara home, about ye sb ek line me aajayega and with space in between  */
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /* space between sare content me, margin top is 0 and margin left is 23px and margin right is
+     not set*/
+}
+ /*  ye bullets remove krne ke liye kra h  */
+.first{
+    font-size: larger;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0;
+}
+.left{
+    width: 30%;
+    font-size: 2rem;
+    margin: 100px 0;
+}
+.right{
+    margin: 15px 0;;
+  /*  we directly changed picture's height using inspect  */
+}
+img{
+    height: 350px;
+}
+.yes{
+    color: purple;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: purple;
+}
+ /* byusing hover, ham kisi clickable chiz pr,click krte time uska color change kr skte h  */
+#element{
+    color: purple;
+}
+ /*  ye element typed.js wala h  */
+.sectiontwo{
+    max-width: 80vw;
+    /* /* to make heading bold  */
+    margin: auto;
+    /* /* center me laane ke liye  */
+    height: 80vh;
+}
+hr{
+    border: 0;
+    /* hr ko color krne ke liye border zero krna hota h taki default border ko hta de 
+    /* and now we can customize it  */
+    background-color: purple;
+    height: 1.2px;
+    margin: 30px 84px;
+}
+.name{
+    color: purple;
+}
+.sectiontwo{
+    display: flex;
+}
+.about-img {
+    margin: 65px 50px;
+}
+.about-text h1{
+    font-size: 60px;
+}
+.about-text p{
+    font-size: 25px;
+    line-height: 1.7;
+    margin: 25px 0 30px;
+}
+.me{
+    color: purple;
+}
+img {
+    margin: 75px 50px;
+}
+/* .sectionthree{
+     height: 100vh;
+    margin: 100px 65px; 
+} */
+.subtitle{
+  text-align: center;
+  margin-top: 130px;
+  font-size: 50px;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.sectionthree{
+  width: 700px;
+  height: 500px;
+  padding: 56px 60px;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.skills{
+    color: purple;
+}
+.bx bxl-html5 {  
+    font-family: 'Boxicons'; 
+  }  
+  /*   to get the logo of languages  */
+
+.container1{
+width: 700px;
+height: 500px;
+padding: 40px 60px;
+margin-left: 120px;
+}
+.heading{
+    margin-bottom: 50px;
+    text-decoration-thickness: 5px;
+}
+svg{
+    margin-bottom: 0;
+}
+.skills-box{
+    font-size: 23px;
+}
+.skills-container{
+    margin: 40px 0;
+}
+.skills-container .skills-box:first-child{
+    margin-top: 0;
+}
+.skills-container .skills-box:last-child{
+    margin-bottom: 0;
+}
+.skills-container h3{
+      margin-bottom: 5px;
+      display: inline-block;
+}
+
+ 
+ .radius {  
+  width: 150px;  
+  height: 150px;  
+  margin: 20px;  
+}  
+  
+.percentage {  
+  font-size: 24px;  
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+  text-align: center;  
+}  
+  
+.text {  
+  font-size: 18px;  
+  position: absolute;  
+  top: 30%;  
+  left: 60%;  
+  transform: translate(-50%, -50%);  
+  text-align: center;  
+}  
+  
+.path {  
+  stroke-width: 8;  
+  stroke: #666;  
+}  
+
+.svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -70%) rotate(-90deg);
+    width: 200px;
+    height: 200px;
+} 
+.container1 .radius .progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar{
+    100% {
+        stroke-dashoffset: -1;;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: purple;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{ animation: animate-path1 1s 1s linear forwards}
+.path-2{ animation: animate-path2 1s 1s linear forwards;}
+.path-3{ animation: animate-path3 1s 1s linear forwards;}
+.path-4{ animation: animate-path4 1s 1s linear forwards;}
+.path-5 { animation: animate-path5 1s 1s linear forwards;}
+
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 50;;
+    }
+}
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 200;;
+    }
+}
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 125;;
+    }
+}
+@keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 20;;
+    }
+}
+@keyframes animate-path5 {
+    100%{
+        stroke-dashoffset: 25;;
+    }
+} 
+
+/* /* do section me overlap na ho uss liye ye use kra  */
+ .contact{
+  height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 950px;
+    width: 90%;
+} 
+.contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h2 span{
+    color: purple;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: rgba(0,0,33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    background-color: rgba(0,0,55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  .first {
+    font-size: larger;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0;
+  }
+
+  .left {
+    width: 30%;
+    font-size: 2rem;
+    margin: 100px 0;
+  }
+
+  .right {
+    margin: 15px 0;
+  }
+
+  img {
+    height: 350px;
+  }
+
+  .yes {
+    color: purple;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+  #element {
+    color: purple;
+  }
+
+  .sectiontwo {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+
+  hr {
+    border: 0;
+    background-color: purple;
+    height: 1.2px;
+    margin: 30px 84px;
+  }
+
+  .name {
+    color: purple;
+  }
+
+  .sectiontwo {
+    display: flex;
+  }
+
+  .about-img {
+    margin: 65px 50px;
+  }
+
+  .about-text h1 {
+    font-size: 60px;
+  }
+
+  .about-text p {
+    font-size: 25px;
+    line-height: 1.7;
+    margin: 25px 0 30px;
+  }
+
+  .me {
+    color: purple;
+  }
+
+  img {
+    margin: 75px 50px;
+  }
+  /* .title{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sectionthree{
+    width: 500px;
+    height: 400px;
+    padding: 100px 250px;
+    margin-left: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .headings{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px ;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+  }
+  .bars{
+    font-size: 23px;
+  }
+  .technical-bars .bars{
+    margin-top: 40px 0;
+  }
+  .technical-bars .bars:first-child{
+    margin-top: 0;
+  }
+  .technical-bars .bars:last-child{
+    margin-bottom: 0;
+  }
+  .technical-bars .bars .info{
+    margin-bottom: 5px;
+  }
+  .technical-bars .bars .info span{
+    font-size: 15px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+  }
+  .technical-bars .bars .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    background-color: black;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards ;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  @keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+  }
+
+  .technical-bars .bars .progress-line span{
+    height: 100%;
+    background-color: purple;
+    position: absolute;
+    border-radius: 10px;
+    /* animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards; 
+    animation: animate 2s ease-in-out forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .progress-line.html span{
+    width: 90%;
+  }
+  .progress-line.css span{
+    width: 80%;
+  }
+  .progress-line.Javascript span{
+    width: 60%;
+  }
+  .progress-line.cpp span{
+    width: 90%;
+  }
+  .progress-line.python span{
+    width: 80%;
+  }
+  
+  .contact #contact {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem; /* Adjust the gap as needed 
+  }
+
+  .contact-text {
+    flex: 1; /* Adjust flex values as needed 
+  }
+
+  .contact-form {
+    flex: 1; /* Adjust flex values as needed 
+  }
+
+  .text-here {
+    font-size: 3rem;
+  }
+
+  .contact-text span {
+    color: purple;
+  }
+
+  .contact-text h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+
+  .contact-text p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .contact-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: purple;
+  }
+
+  .contact-icons a {
+    text-decoration: none;
+    color: purple;
+  }
+
+  .contact-icons i {
+    font-size: 30px;
+    margin: 20px 15px 20px 0;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+/*   isko kam krne ki wjh se hi dono contact form and list aas ass ayi 
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form input, textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+  }
+
+  .send {
+    width: 120px;
+    cursor: pointer;
+    color: purple;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+    }
+    .contact{
+        display: flex;
+    } */
+    *{
+      padding: 0;
+      margin: 0;
+  }
+  /* universal selector, always start like this */
+  body{
+      background-color:rgba(0,0,33);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      /* copied from goggle font */
+  }
+  nav {
+      background-color: rgba(0,0,55);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+  }
+  /* ye life first and two ko arrange kr rha h */
+  nav ul{
+      display: flex;
+      justify-content: center;
+  }
+  /* isse sara home, about ye sb ek line me aajayega and with space in between */
+  nav ul li {
+      list-style: none;
+      margin: 0 23px;
+      /* space between sare content me, margin top is 0 and margin left is 23px and margin right is
+       not set*/
+  }
+  /*  ye bullets remove krne ke liye kra h */
+  
+  .first{
+      font-size: larger;
+  }
+  main{
+      display: flex;
+      justify-content: space-around;
+      margin: 12px 0;
+  }
+  .left{
+      width: 30%;
+      font-size: 2rem;
+      margin: 100px 0;
+  }
+  .right{
+      margin: 15px 0;;
+   /*  we directly changed picture's height using inspect */
+  }
+  img{
+      height: 350px;
+  }
+  .yes{
+      color: purple;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  a:hover{
+      text-decoration: none;
+      color: purple;
+  }
+  /* byusing hover, ham kisi clickable chiz pr,click krte time uska color change kr skte h */
+  #element{
+      color: purple;
+  }
+  /*  ye element typed.js wala h */
+  .sectiontwo{
+      max-width: 80vw;
+      /* to make heading bold */
+      margin: auto;
+      /* center me laane ke liye */
+      height: 80vh;
+  }
+  hr{
+      border: 0;
+      /* hr ko color krne ke liye border zero krna hota h taki default border ko hta de 
+      and now we can customize it */
+      background-color: purple;
+      height: 1.2px;
+      margin: 30px 84px;
+  }
+  .name{
+      color: purple;
+  }
+  .sectiontwo{
+      display: flex;
+  }
+  .about-img {
+      margin: 65px 50px;
+  }
+  .about-text h1{
+      font-size: 60px;
+  }
+  .about-text p{
+      font-size: 25px;
+      line-height: 1.7;
+      margin: 25px 0 30px;
+  }
+  .me{
+      color: purple;
+  }
+  img {
+      margin: 75px 50px;
+  }
+  .sectionthree{
+       height: 100vh;
+      margin: 60px 65px; 
+  }
+  .sectionthree h1{
+          text-align: center;
+         font-size: 50px;
+  }
+  .skills{
+      color: purple;
+  }
+  .bx bxl-html5 {  
+      font-family: 'Boxicons'; 
+    }  
+    /*  to get the logo of languages */
+  .section{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .heading{
+      margin-bottom: 50px;
+      text-decoration-thickness: 5px;
+  }
+  svg{
+      margin-bottom: 0;
+  }
+  .skills-box{
+      font-size: 23px;
+  }
+  .skills-container{
+      margin: 40px 0;
+      padding: 0;
+  }
+  .skills-container .skills-box:first-child{
+      margin-top: 0;
+  }
+  .skills-container .skills-box:last-child{
+      margin-bottom: 0;
+  }
+  .skills-container h3{
+        margin-bottom: 5px;
+        display: inline-block;
+  }
+  .container1{
+      width: 100%;
+        height: 170px;
+        padding: 0;
+        /* margin-left: 120px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+  }
+  .container1 .radius{
+      width: 50%;
+      height: 170px;
+      margin-bottom: 10px;
+      position: relative;
+  } */
+  .container1 .radius svg{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-90deg);
+      width: 120px;
+      height: 160px;
+  }
+  .container1 .radius .progress-bar{
+      stroke-width: 10;
+      stop-color: black;
+      fill: transparent;
+      stroke-dasharray: 502;
+      stroke-dashoffset: 502;
+      stroke-linecap: round;
+      animation: animate-bar 1s linear forwards;
+  }
+  @keyframes animate-bar{
+      100% {
+          stroke-dashoffset: -1;;
+      }
+  }
+  .path{
+      stroke-width: 10;
+      stroke: purple;
+      fill: transparent;
+      stroke-dasharray: 502;
+      stroke-dashoffset: 502;
+      stroke-linecap: round;
+  }
+  .path-1{ animation: animate-path1 1s 1s linear forwards}
+  .path-2{ animation: animate-path2 1s 1s linear forwards;}
+  .path-3{ animation: animate-path3 1s 1s linear forwards;}
+  .path-4{ animation: animate-path4 1s 1s linear forwards;}
+  .path-5 { animation: animate-path5 1s 1s linear forwards;}
+  
+  @keyframes animate-path1 {
+      100%{
+          stroke-dashoffset: 50;;
+      }
+  }
+  @keyframes animate-path2 {
+      100%{
+          stroke-dashoffset: 175;;
+      }
+  }
+  @keyframes animate-path3 {
+      100%{
+          stroke-dashoffset: 125;;
+      }
+  }
+  @keyframes animate-path4 {
+      100%{
+          stroke-dashoffset: 20;;
+      }
+  }
+  @keyframes animate-path5 {
+      100%{
+          stroke-dashoffset: 25;;
+      }
+  }
+  .container1 {
+    height: 100vh;
+  }
+  /* do section me overlap na ho uss liye ye use kra */
+   .contact-contact{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 3rem;
+      padding-left: 30px;
+      margin-top: 950px;
+  } 
+  .contact-text h2{
+      font-size: 90px;
+      line-height: 1;
+      text-align: center;
+  }
+  .contact-text h2 span{
+      color: purple;
+  }
+  
+  * {
+      padding: 0;
+      margin: 0;
+    }
+  
+    body {
+      background-color: rgba(0,0,33);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+  
+    nav {
+      background-color: rgba(0,0,55);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+  
+    .first {
+      font-size: larger;
+    }
+  
+    main {
+      display: flex;
+      justify-content: space-around;
+      margin: 12px 0;
+    }
+  
+    .left {
+      width: 30%;
+      font-size: 2rem;
+      margin: 100px 0;
+    }
+  
+    .right {
+      margin: 15px 0;
+    }
+  
+    img {
+      height: 350px;
+    }
+  
+    .yes {
+      color: purple;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  
+    a:hover {
+      text-decoration: none;
+      color: purple;
+    }
+  
+    #element {
+      color: purple;
+    }
+  
+    .sectiontwo {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+  
+    hr {
+      border: 0;
+      background-color: purple;
+      height: 1.2px;
+      margin: 30px 84px;
+    }
+  
+    .name {
+      color: purple;
+    }
+  
+    .sectiontwo {
+      display: flex;
+    }
+  
+    .about-img {
+      margin: 65px 50px;
+    }
+  
+    .about-text h1 {
+      font-size: 60px;
+    }
+  
+    .about-text p {
+      font-size: 25px;
+      line-height: 1.7;
+      margin: 25px 0 30px;
+    }
+  
+    .me {
+      color: purple;
+    }
+  
+    img {
+      margin: 75px 50px;
+    }
+    .title{
+      text-align: center;
+      margin-top: 130px;
+      font-size: 50px;
+    }
+    .sectionthree{
+      width: 500px;
+      height: 400px;
+      padding: 100px 250px;
+      margin-left: 120px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .headings{
+      text-align: center;
+      text-decoration: underline;
+      text-underline-offset: 10px ;
+      text-decoration-thickness: 5px;
+      margin-bottom: 50px;
+    }
+    .radius {  
+      margin: 20px;  
+    }  
+      
+    /* 
+  
+  
+  
+  
+    .contact #contact {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 3rem;
+      padding-left: 30px;
+    }
+  
+    .contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem; /* Adjust the gap as needed 
+    }
+  
+    .contact-text {
+      flex: 1; /* Adjust flex values as needed */
+    
+  /*  */
+    .contact-form {
+      flex: 1; /* Adjust flex values as needed */
+    }
+  
+    .text-here {
+      font-size: 3rem;
+    }
+  
+    .contact-text span {
+      color: purple;
+    }
+  
+    .contact-text h4 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+  
+    .contact-text p {
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+  
+    .contact-list li {
+      list-style: none;
+      margin-bottom: 10px;
+      color: purple;
+    }
+  
+    .contact-icons a {
+      text-decoration: none;
+      color: purple;
+    }
+  
+    .contact-icons i {
+      font-size: 30px;
+      margin: 20px 15px 20px 0;
+    }
+  
+    .contact-form {
+      width: 50%;
+    }
+    /*   isko kam krne ki wjh se hi dono contact form and list aas ass ayi */
+      .contact-form form {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .contact-form input, textarea {
+        margin-bottom: 20px;
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-size: 15px;
+      }
+    
+      .send {
+        width: 120px;
+        cursor: pointer;
+        color: purple;
+      }
+    
+      .contact-form input[type="submit"] {
+        background-color: purple;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease
+        }
+        .contact{
+            display: flex;
+        }

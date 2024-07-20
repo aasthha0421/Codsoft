@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO
+    </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!--  imported poppins font's link from google font -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--  imported poppins logo's link from boxicons -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="first">Aastha's portfolio</div>
+            <div class="two">
+                <ul>
+                    <li><a class="active" href="*">Home</a></li>
+                    <li><a class="active" href="*">About</a></li>
+                    <li><a class="active" href="*">Skills</a></li>
+                    <li><a class="active" href="*">Experience</a></li>
+                    <li><a class="active" href="*">Contact us</a></li>
+                    <!--  to make it clickable -->
+                </ul>
+            </div>
+            <!--  we made two sides in which one side will have data and other one will
+              have picture or logo
+              we can write div in shortform using div.filename -->
+        </nav>
+    </header>
+    <script src="portfolio.js"></script>
+    <main>
+        <!--  section one -->
+        <div class="left">    Hi, My name is <span class="yes" >Aastha</span>  
+            <!-- span is called UTILITY CLASS -->
+            <div>  and I am a </div>
+            <span id="element"></span>
+        </div>
+        <!-- created two divs, ek ke andr ek, taki do line me ajaye text -->
+        <div class="right"> 
+            <img src="https://i.pinimg.com/originals/78/5a/1b/785a1b9c359640da6bc9cfe3670b42ba.png" alt="">
+            <!-- set width and height for image so that it can fit on screen -->
+        </div>
+      </main>
+       <!-- section two, hamne main ke bd issiliye start kra becoz woh phle wala content
+        and section two ek line me aa rhe the , use section tag to avoid this-->
+        <hr>
+        <!-- to form  a line -->
+         <main>
+      <div class="sectiontwo">
+        <div class="about-img">
+            <img src="https://png.pngtree.com/element_our/20200609/ourmid/pngtree-children-s-software-programming-image_2230759.jpg" alt="">
+           </div>
+            <div class="about-text">
+                <h1>About  <span class="me">Me</span> </h1> 
+                
+                <p> <span class="name">I'm Aastha</span> <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet quam
+             molestiae nobis delectus beatae, obcaecati doloremque rerum praesentium voluptates
+             deserunt vitae eum culpa provident, accusamus perferendis et dolorum reiciendis.</p>
+            </div>
+</div> 
+</main>
+<h1 class="subtitle">My <span  class="skills">Skills</span></h1>
+     <section class="sectionthree">
+   <h2 style="text-decoration: underline; text-underline-offset: 10px;
+   margin-bottom: 20px; text-align: center;">Technical skills</h2>
+   <div class="skills-container">
+    <div class="skills-box">
+        <i style="color: rgb(0, 132, 255);"
+        class='bx bxl-c-plus-plus'></i>
+       <h3 style="margin-top: 50px;">C++</h3>
+       </div>
+   <div class="skills-box">
+    <i style="color: #c32ec9;"
+    class='bx bxl-python' ></i>
+   <h3>Python</h3>
+</div>
+<div class="skills-box">
+    <i style="color: orange;"
+    class='bx bxl-html5'></i>
+   <h3>HTML</h3>
+</div>
+<div class="skills-box">
+     <i style="color: blue;"
+    class='bx bxl-css3'></i>
+   <h3>CSS</h3>
+</div>
+<div class="skills-box">
+    <i style="color: yellow;" 
+    class='bx bxl-javascript'></i>
+   <h3>Javascript</h3>
+</div>
+</div>
+
+    <h2 style="text-align: center; text-decoration: underline; text-underline-offset: 10px;
+    margin-bottom: 10px;"
+    class="heading">Professional Skills</h2>
+   <!--   text underline offset mtlb underline heading se kitna dur ho  -->
+    <div class="container1">
+    <div class="radius"> 
+         <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle> </svg>
+        <div style="font-size: 20px;" class="percentage">90%</div>
+        <div style="font-size: 20px;" class="text">Teamwork</div>
+    </div>
+    <div class="radius">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle> </svg>
+        <div style="font-size: 20px;"class="percentage">75%</div>
+        <div style="font-size: 20px" class="text">multitasking</div>
+    </div>
+    <div class="radius">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div style="font-size: 20px;" class="percentage">80%</div>
+        <div style="font-size: 20px;" class="text">Communication</div>
+    </div>
+    <div class="radius">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div style="font-size: 20px;" class="percentage">95%</div>
+        <div style="font-size: 20px;" class="text">Creativity</div>
+    </div>
+    <div class="radius">
+        <!-- <div style="font-size: 20px;" class="percentage">85%</div>
+        <div style="font-size: 20px;" class="text">Leadership</div> -->
+        <svg x="0px" y="0px" Viewbox="0 0 200 200"> 
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-5" cx="100" cy="100" r="80"></circle> </svg>
+            <div style="font-size: 20px;" class="percentage">95%</div>
+            <div style="font-size: 20px;" class="text">Leadership</div>
+    </div> 
+ </div>
+    </section>
+<br>
+   <section class="contact-section"> 
+
+ <div class="contact" id="contact">
+    <div class="contact-text">
+        <h2 class="text-here">Contact <span>Me</span></h2>
+        <h4>Lets work together</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+     At, voluptatibus. Ipsa harum enim nulla? Nesciunt aut ducimus <br>
+     accusantium impedit molestias reprehenderit maiores.
+     <br> Sit nihil voluptatibus, quae explicabo fugit ducimus accusantium?
+    </p>
+        <div class="contact-list">
+            <li><i class='bx bxs-send'>justaasthaa@gmail.com</i></li>
+            <li><i class='bx bxs-phone'>+91 9305646662</i></li>
+            </div>
+            <div class="contact-icons"></div>
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-linkdin'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+    </div>
+  <div class="contact-form">
+   <form action="">
+    <input type=""placeholder="Enter Your Name" required>
+    <input type=""placeholder="Enter Your Email" required>
+    <input type=""placeholder="Enter Your Subject" required>
+    <textarea name="" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+    <input type="submit" value="submit" class="send">
+   </form>
+  </div>
+  </div>
+</section> 
+     <footer></footer>
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+     <!-- ye dockins ke usuage me jaake copykra h -->
+     <!--  NOW SEARCH TYPED.JS ON GOGGLE AND COPY IT. YE JS KI TYPING ANIMATION LIBRARY H -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ye rahi typed.js , copied for github -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['College Student', 'Passionate Web developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
